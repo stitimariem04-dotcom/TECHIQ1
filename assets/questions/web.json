@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Que signifie HTML ?",
+    "options": ["HyperText Markup Language", "High Text Management Language", "Hyper Transfer Markup Language", "HyperText Modern Language"],
+    "answer": "HyperText Markup Language",
+    "explanation": "HTML (HyperText Markup Language) est le langage de balisage standard utilisé pour structurer le contenu des pages web. Il définit la sémantique et la structure, pas le style."
+  },
+  {
+    "question": "Quelle est la différence entre CSS et HTML ?",
+    "options": ["HTML structure le contenu, CSS le met en forme visuellement", "CSS génère du contenu dynamique, HTML le style", "HTML est côté serveur, CSS côté client", "Ils sont interchangeables"],
+    "answer": "HTML structure le contenu, CSS le met en forme visuellement",
+    "explanation": "HTML définit la structure sémantique (titres, paragraphes, liens), tandis que CSS (Cascading Style Sheets) contrôle la présentation visuelle : couleurs, polices, mises en page, animations."
+  },
+  {
+    "question": "Que signifie DOM dans le développement web ?",
+    "options": ["Document Object Model", "Data Object Management", "Dynamic Object Model", "Document Oriented Markup"],
+    "answer": "Document Object Model",
+    "explanation": "Le DOM est une représentation en mémoire de la structure d'un document HTML sous forme d'arbre d'objets. JavaScript interagit avec le DOM pour modifier dynamiquement le contenu des pages."
+  },
+  {
+    "question": "Qu'est-ce que REST dans le contexte des APIs web ?",
+    "options": ["Architectural style utilisant HTTP pour créer des APIs sans état et uniformes", "Un langage de programmation backend", "Un protocole de base de données", "Un framework JavaScript"],
+    "answer": "Architectural style utilisant HTTP pour créer des APIs sans état et uniformes",
+    "explanation": "REST (Representational State Transfer) est un style architectural pour les APIs web, utilisant les méthodes HTTP (GET, POST, PUT, DELETE) et des URLs représentant des ressources."
+  },
+  {
+    "question": "Quelle est la différence entre les méthodes HTTP GET et POST ?",
+    "options": ["GET récupère des données (visible dans l'URL), POST envoie des données (dans le corps)", "GET modifie des données, POST les lit", "POST est plus sécurisé car il chiffre les données", "Ils sont identiques fonctionnellement"],
+    "answer": "GET récupère des données (visible dans l'URL), POST envoie des données (dans le corps)",
+    "explanation": "GET est idempotent et inclut les données dans l'URL (limité à ~2000 chars). POST envoie les données dans le corps de la requête, pour des opérations de création ou d'envoi de données sensibles."
+  },
+  {
+    "question": "Qu'est-ce que le responsive design ?",
+    "options": ["Conception d'interfaces web qui s'adaptent à toutes les tailles d'écran", "Un design qui répond aux clics rapidement", "Un style visuel minimaliste", "Une technique d'optimisation des images"],
+    "answer": "Conception d'interfaces web qui s'adaptent à toutes les tailles d'écran",
+    "explanation": "Le responsive design utilise des media queries CSS, des grilles flexibles et des images fluides pour que les pages web s'affichent correctement sur mobile, tablette et desktop."
+  },
+  {
+    "question": "Qu'est-ce que JSON ?",
+    "options": ["JavaScript Object Notation, format léger d'échange de données textuelles", "Java Source Object Notation", "JavaScript Online Notation", "Joint Service Object Network"],
+    "answer": "JavaScript Object Notation, format léger d'échange de données textuelles",
+    "explanation": "JSON est un format de données léger et lisible par l'humain, basé sur la syntaxe des objets JavaScript. Très utilisé dans les APIs REST pour échanger des données entre client et serveur."
+  },
+  {
+    "question": "Qu'est-ce que React.js ?",
+    "options": ["Bibliothèque JavaScript de Meta pour construire des interfaces utilisateur par composants", "Un framework full-stack JavaScript", "Un langage de programmation dérivé de JavaScript", "Un serveur web haute performance"],
+    "answer": "Bibliothèque JavaScript de Meta pour construire des interfaces utilisateur par composants",
+    "explanation": "React est une bibliothèque UI créée par Meta (Facebook), basée sur le concept de composants réutilisables et d'un DOM virtuel (Virtual DOM) pour des mises à jour d'UI performantes."
+  },
+  {
+    "question": "Qu'est-ce que Node.js ?",
+    "options": ["Environnement d'exécution JavaScript côté serveur basé sur le moteur V8 de Chrome", "Un framework frontend JavaScript", "Un serveur web Apache modernisé", "Un gestionnaire de packages"],
+    "answer": "Environnement d'exécution JavaScript côté serveur basé sur le moteur V8 de Chrome",
+    "explanation": "Node.js permet d'exécuter JavaScript côté serveur, en dehors du navigateur. Son modèle événementiel non-bloquant le rend performant pour les applications temps réel et les APIs."
+  },
+  {
+    "question": "Qu'est-ce que CORS ?",
+    "options": ["Cross-Origin Resource Sharing, mécanisme autorisant les requêtes entre domaines différents", "Common Origin Request Security", "Cross Over Request System", "Cached Object Resource Sharing"],
+    "answer": "Cross-Origin Resource Sharing, mécanisme autorisant les requêtes entre domaines différents",
+    "explanation": "CORS est un mécanisme de sécurité du navigateur qui contrôle les requêtes HTTP effectuées depuis un domaine vers un autre domaine différent, défini dans les en-têtes HTTP de réponse."
+  },
+  {
+    "question": "Que fait le CSS Flexbox ?",
+    "options": ["Système de mise en page CSS pour aligner et distribuer des éléments dans un conteneur", "Rend le texte flexible et adaptatif", "Anime les transitions d'éléments", "Gère les polices web"],
+    "answer": "Système de mise en page CSS pour aligner et distribuer des éléments dans un conteneur",
+    "explanation": "Flexbox est un modèle de mise en page CSS unidimensionnel qui simplifie l'alignement et la distribution d'espace entre les éléments d'un conteneur, dans une ligne ou une colonne."
+  },
+  {
+    "question": "Qu'est-ce que le CSS Grid ?",
+    "options": ["Système de mise en page CSS bidimensionnel permettant des mises en page complexes", "Une grille de pixels pour les images CSS", "Un framework CSS comme Bootstrap", "Un système de grille pour les icônes"],
+    "answer": "Système de mise en page CSS bidimensionnel permettant des mises en page complexes",
+    "explanation": "CSS Grid est un système de mise en page bidimensionnel (lignes ET colonnes) qui permet de créer des mises en page complexes directement dans le CSS, avec un contrôle précis du positionnement."
+  },
+  {
+    "question": "Qu'est-ce que Webpack ?",
+    "options": ["Bundler JavaScript qui regroupe tous les assets d'un projet en fichiers optimisés", "Un serveur web léger", "Un framework de tests JavaScript", "Un gestionnaire de versions de Node.js"],
+    "answer": "Bundler JavaScript qui regroupe tous les assets d'un projet en fichiers optimisés",
+    "explanation": "Webpack est un module bundler qui analyse le graphe de dépendances d'un projet (JS, CSS, images) et les regroupe en bundles optimisés pour la production."
+  },
+  {
+    "question": "Qu'est-ce que TypeScript ?",
+    "options": ["Superset de JavaScript ajoutant le typage statique optionnel", "Un langage de programmation distinct de JavaScript", "Un compilateur JavaScript", "Un framework full-stack"],
+    "answer": "Superset de JavaScript ajoutant le typage statique optionnel",
+    "explanation": "TypeScript, créé par Microsoft, est une extension de JavaScript qui ajoute des types statiques facultatifs. Il se compile en JavaScript standard et améliore la maintenabilité des grands projets."
+  },
+  {
+    "question": "Qu'est-ce que le SSR (Server-Side Rendering) ?",
+    "options": ["Rendu de la page HTML sur le serveur avant envoi au client", "Rendu des pages uniquement dans le navigateur", "Un protocole de communication serveur-client", "Une technique d'optimisation des images"],
+    "answer": "Rendu de la page HTML sur le serveur avant envoi au client",
+    "explanation": "Le SSR génère le HTML complet sur le serveur à chaque requête, l'envoyant prêt à l'affichage au navigateur. Meilleur pour le SEO et le temps de chargement initial, contrairement au CSR (client-side)."
+  },
+  {
+    "question": "Qu'est-ce que GraphQL ?",
+    "options": ["Langage de requête pour APIs permettant aux clients de demander exactement les données voulues", "Un base de données orientée graphes", "Un langage de visualisation de données", "Un framework CSS"],
+    "answer": "Langage de requête pour APIs permettant aux clients de demander exactement les données voulues",
+    "explanation": "GraphQL, créé par Meta, est une alternative à REST permettant aux clients de spécifier exactement les données dont ils ont besoin dans une seule requête, éliminant le sur-chargement ou sous-chargement de données."
+  },
+  {
+    "question": "Qu'est-ce que WebSocket ?",
+    "options": ["Protocole de communication bidirectionnelle en temps réel entre client et serveur", "Un socket réseau pour les serveurs web", "Un protocole HTTP amélioré", "Un format de transfert de fichiers"],
+    "answer": "Protocole de communication bidirectionnelle en temps réel entre client et serveur",
+    "explanation": "WebSocket établit une connexion persistante bidirectionnelle entre le navigateur et le serveur, permettant la communication temps réel (chats, jeux en ligne, flux de données) sans polling HTTP répété."
+  },
+  {
+    "question": "Qu'est-ce que le caching (mise en cache) web ?",
+    "options": ["Stockage temporaire de ressources pour éviter de les recharger depuis le serveur", "Un système de sauvegarde des données", "Un historique des visites web", "Un mécanisme de compression des images"],
+    "answer": "Stockage temporaire de ressources pour éviter de les recharger depuis le serveur",
+    "explanation": "Le caching stocke les ressources (HTML, CSS, JS, images) dans le navigateur ou des serveurs intermédiaires (CDN), réduisant le temps de chargement et la charge serveur lors des visites suivantes."
+  },
+  {
+    "question": "Qu'est-ce que SASS/SCSS ?",
+    "options": ["Préprocesseur CSS qui ajoute variables, nesting, mixins et fonctions au CSS", "Un framework CSS complet", "Un outil de minification CSS", "Un langage de style pour mobile"],
+    "answer": "Préprocesseur CSS qui ajoute variables, nesting, mixins et fonctions au CSS",
+    "explanation": "SASS (et sa syntaxe SCSS compatible CSS) est un préprocesseur qui étend CSS avec des fonctionnalités de programmation (variables, fonctions, mixins, imbrication), se compilant en CSS standard."
+  },
+  {
+    "question": "Qu'est-ce qu'une PWA (Progressive Web App) ?",
+    "options": ["Application web utilisant les technologies modernes pour offrir une expérience native", "Une application créée avec le framework PWA", "Un site web responsive amélioré", "Un type de serveur web"],
+    "answer": "Application web utilisant les technologies modernes pour offrir une expérience native",
+    "explanation": "Une PWA utilise Service Workers, Web App Manifest et autres APIs modernes pour offrir des fonctionnalités d'application native (hors ligne, notifications push, installation) via le navigateur."
+  },
+  {
+    "question": "Qu'est-ce qu'un CDN (Content Delivery Network) ?",
+    "options": ["Réseau de serveurs distribués géographiquement pour livrer les contenus web plus rapidement", "Un réseau de développeurs web", "Un système de gestion de contenu", "Un protocole de distribution de fichiers"],
+    "answer": "Réseau de serveurs distribués géographiquement pour livrer les contenus web plus rapidement",
+    "explanation": "Un CDN stocke des copies du contenu web sur des serveurs répartis dans le monde entier, livrant les ressources depuis le serveur géographiquement le plus proche de l'utilisateur pour minimiser la latence."
+  },
+  {
+    "question": "Que signifie HTTPS ?",
+    "options": ["HTTP Secure, version chiffrée du protocole HTTP utilisant SSL/TLS", "High Transfer Protocol Secure", "Hypertext Transfer Protocol Standard", "HTTP avec Server-Side rendering"],
+    "answer": "HTTP Secure, version chiffrée du protocole HTTP utilisant SSL/TLS",
+    "explanation": "HTTPS est la version sécurisée de HTTP, utilisant le protocole SSL/TLS pour chiffrer toutes les communications entre le navigateur et le serveur, protégeant les données en transit."
+  }
+]

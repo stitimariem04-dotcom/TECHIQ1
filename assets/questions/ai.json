@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Quels sont les trois types principaux d'apprentissage en Machine Learning ?",
+    "options": ["Supervisé, Non-supervisé, Par renforcement", "Actif, Passif, Semi-actif", "Profond, Superficiel, Moyen", "Rapide, Lent, Modéré"],
+    "answer": "Supervisé, Non-supervisé, Par renforcement",
+    "explanation": "L'apprentissage supervisé utilise des données étiquetées, le non-supervisé découvre des patterns sans labels, et le renforcement apprend par essais-erreurs avec des récompenses."
+  },
+  {
+    "question": "Qu'est-ce qu'un réseau de neurones artificiels ?",
+    "options": ["Système informatique inspiré du cerveau humain composé de neurones interconnectés", "Un réseau social pour scientifiques", "Un protocole de communication", "Une base de données distribuée"],
+    "answer": "Système informatique inspiré du cerveau humain composé de neurones interconnectés",
+    "explanation": "Un réseau de neurones artificiels est un modèle computationnel inspiré du cerveau biologique, composé de couches de neurones artificiels (nœuds) qui traitent et transmettent des signaux."
+  },
+  {
+    "question": "Qu'est-ce que l'overfitting (surajustement) en Machine Learning ?",
+    "options": ["Le modèle mémorise les données d'entraînement mais généralise mal", "Le modèle apprend trop lentement", "La perte de données pendant l'entraînement", "Un bug dans le code du modèle"],
+    "answer": "Le modèle mémorise les données d'entraînement mais généralise mal",
+    "explanation": "L'overfitting survient quand un modèle apprend par coeur les données d'entraînement, y compris le bruit, et devient incapable de généraliser à de nouvelles données non vues."
+  },
+  {
+    "question": "Que signifie NLP ?",
+    "options": ["Natural Language Processing", "Network Learning Protocol", "Neural Logic Program", "Numeric Language Processing"],
+    "answer": "Natural Language Processing",
+    "explanation": "Le NLP (Traitement du Langage Naturel) est une branche de l'IA qui permet aux ordinateurs de comprendre, interpréter et générer du langage humain naturel."
+  },
+  {
+    "question": "Qu'est-ce qu'un CNN (Convolutional Neural Network) ?",
+    "options": ["Réseau de neurones spécialisé dans le traitement d'images", "Un réseau informatique physique", "Un algorithme de chiffrement", "Un type de base de données"],
+    "answer": "Réseau de neurones spécialisé dans le traitement d'images",
+    "explanation": "Un CNN utilise des couches de convolution pour détecter automatiquement des features dans les images (bords, formes, textures), révolutionnant la vision par ordinateur."
+  },
+  {
+    "question": "Qu'est-ce que la descente de gradient ?",
+    "options": ["Algorithme d'optimisation qui minimise la fonction de perte", "Un algorithme de tri de données", "Une méthode de visualisation", "Un protocole de communication"],
+    "answer": "Algorithme d'optimisation qui minimise la fonction de perte",
+    "explanation": "La descente de gradient ajuste itérativement les paramètres du modèle dans la direction qui réduit la fonction de perte, permettant au modèle d'apprendre en minimisant ses erreurs."
+  },
+  {
+    "question": "Qu'est-ce que le Transfer Learning ?",
+    "options": ["Réutilisation d'un modèle pré-entraîné pour une nouvelle tâche", "Transfert de données entre modèles", "Migration d'un modèle vers un nouveau serveur", "Copie de poids entre réseaux identiques"],
+    "answer": "Réutilisation d'un modèle pré-entraîné pour une nouvelle tâche",
+    "explanation": "Le Transfer Learning consiste à prendre un modèle entraîné sur une grande tâche (ex: ImageNet) et à l'adapter à une tâche plus spécifique, économisant temps et données d'entraînement."
+  },
+  {
+    "question": "Qu'est-ce qu'un RNN (Recurrent Neural Network) ?",
+    "options": ["Réseau de neurones traitement des séquences de données temporelles", "Un réseau aléatoire récursif", "Un réseau pour les images répétitives", "Un réseau de neurones classique"],
+    "answer": "Réseau de neurones traitement des séquences de données temporelles",
+    "explanation": "Les RNN traitent des séquences de données (texte, audio, séries temporelles) en maintenant une mémoire des états précédents, permettant de modéliser les dépendances temporelles."
+  },
+  {
+    "question": "Qu'est-ce que l'architecture Transformer dans le contexte de l'IA ?",
+    "options": ["Architecture basée sur le mécanisme d'attention, fondement des grands modèles de langage", "Un transformateur électrique pour GPUs", "Un format de conversion de données", "Un type de réseau convolutif"],
+    "answer": "Architecture basée sur le mécanisme d'attention, fondement des grands modèles de langage",
+    "explanation": "L'architecture Transformer, introduite en 2017 (Attention Is All You Need), utilise des mécanismes d'auto-attention pour traiter les séquences en parallèle, fondant GPT, BERT et autres LLMs."
+  },
+  {
+    "question": "Que signifie GPT ?",
+    "options": ["Generative Pre-trained Transformer", "General Purpose Technology", "Graphic Processing Tool", "Global Pattern Trainer"],
+    "answer": "Generative Pre-trained Transformer",
+    "explanation": "GPT (Generative Pre-trained Transformer) est une famille de grands modèles de langage créés par OpenAI, capables de générer du texte cohérent et de réaliser diverses tâches linguistiques."
+  },
+  {
+    "question": "Qu'est-ce que la Vision par Ordinateur (Computer Vision) ?",
+    "options": ["Domaine de l'IA permettant aux machines d'interpréter et comprendre les images", "Un logiciel de graphisme 3D", "Un écran d'ordinateur spécial", "Un protocole de streaming vidéo"],
+    "answer": "Domaine de l'IA permettant aux machines d'interpréter et comprendre les images",
+    "explanation": "La Vision par Ordinateur permet aux machines d'analyser et comprendre le contenu visuel (images, vidéos), pour des applications comme la reconnaissance faciale, la détection d'objets et la conduite autonome."
+  },
+  {
+    "question": "Qu'est-ce que la fonction de perte (Loss Function) en apprentissage machine ?",
+    "options": ["Mesure de l'écart entre les prédictions du modèle et les vraies valeurs", "La vitesse d'apprentissage du modèle", "Le nombre de données d'entraînement", "La complexité du réseau de neurones"],
+    "answer": "Mesure de l'écart entre les prédictions du modèle et les vraies valeurs",
+    "explanation": "La fonction de perte quantifie l'erreur du modèle en comparant ses prédictions aux vraies valeurs. L'objectif de l'entraînement est de minimiser cette fonction (ex: MSE, Cross-Entropy)."
+  },
+  {
+    "question": "Qu'est-ce que la validation croisée (Cross-Validation) ?",
+    "options": ["Technique d'évaluation divisant les données en k sous-ensembles pour tester le modèle", "Validation d'un modèle par plusieurs experts", "Comparaison de deux modèles différents", "Test du modèle sur données réelles"],
+    "answer": "Technique d'évaluation divisant les données en k sous-ensembles pour tester le modèle",
+    "explanation": "La validation croisée k-fold divise les données en k parties, entraînant sur k-1 parties et testant sur la dernière, répété k fois pour obtenir une évaluation robuste du modèle."
+  },
+  {
+    "question": "Que signifie le terme 'feature engineering' ?",
+    "options": ["Processus de création et sélection des variables d'entrée pour améliorer le modèle", "Construction d'un réseau de neurones", "Optimisation du code d'entraînement", "Nettoyage des données brutes"],
+    "answer": "Processus de création et sélection des variables d'entrée pour améliorer le modèle",
+    "explanation": "Le feature engineering consiste à sélectionner, transformer et créer des caractéristiques (features) pertinentes à partir des données brutes pour améliorer les performances du modèle ML."
+  },
+  {
+    "question": "Qu'est-ce que le bias (biais) dans un modèle d'IA ?",
+    "options": ["Erreur systématique due aux hypothèses simplificatrices de l'algorithme d'apprentissage", "L'opinion personnelle du développeur", "Un défaut du matériel informatique", "Un problème dans les données de validation"],
+    "answer": "Erreur systématique due aux hypothèses simplificatrices de l'algorithme d'apprentissage",
+    "explanation": "Le biais représente l'erreur d'un modèle dûe à ses hypothèses trop simplistes. Un biais élevé indique un underfitting : le modèle ne capture pas la complexité des données."
+  },
+  {
+    "question": "Qu'est-ce que le Reinforcement Learning (Apprentissage par Renforcement) ?",
+    "options": ["Un agent apprend en interagissant avec un environnement via des récompenses et pénalités", "Apprentissage avec des données annotées par des experts", "Apprentissage sans aucune supervision", "Entraînement accéléré par du matériel spécialisé"],
+    "answer": "Un agent apprend en interagissant avec un environnement via des récompenses et pénalités",
+    "explanation": "Dans le RL, un agent prend des actions dans un environnement et reçoit des récompenses (positives ou négatives). Il apprend à maximiser la récompense totale par essais et erreurs."
+  },
+  {
+    "question": "Qu'est-ce que la Data Augmentation ?",
+    "options": ["Technique générant de nouvelles données d'entraînement en transformant les données existantes", "Ajout de nouvelles colonnes à une base de données", "Augmentation de la vitesse de traitement", "Compression des données d'entraînement"],
+    "answer": "Technique générant de nouvelles données d'entraînement en transformant les données existantes",
+    "explanation": "La data augmentation crée de nouvelles données en appliquant des transformations (rotation, flip, zoom, bruit) aux données existantes, réduisant l'overfitting et augmentant la généralisation."
+  },
+  {
+    "question": "Qu'est-ce qu'un GAN (Generative Adversarial Network) ?",
+    "options": ["Deux réseaux en compétition : un générateur et un discriminateur", "Un réseau pour les jeux vidéo", "Un système de détection d'intrusion", "Un réseau de neurones récurrent modifié"],
+    "answer": "Deux réseaux en compétition : un générateur et un discriminateur",
+    "explanation": "Un GAN est composé de deux réseaux : le générateur crée de fausses données, le discriminateur tente de les distinguer des vraies. Leur compétition améliore la qualité de la génération."
+  },
+  {
+    "question": "Qu'est-ce que BERT ?",
+    "options": ["Bidirectional Encoder Representations from Transformers, modèle NLP de Google", "Basic Enhanced Recurrent Transformer", "Binary Encoding Retrieval Tool", "Batch Error Reduction Technique"],
+    "answer": "Bidirectional Encoder Representations from Transformers, modèle NLP de Google",
+    "explanation": "BERT est un modèle de langage pré-entraîné de Google qui utilise des Transformers bidirectionnels pour comprendre le contexte des mots dans les deux sens d'une phrase."
+  },
+  {
+    "question": "Quelle est la différence entre Intelligence Artificielle, Machine Learning et Deep Learning ?",
+    "options": ["L'IA est le domaine général, le ML en est un sous-ensemble, le Deep Learning est un sous-ensemble du ML", "Ce sont trois noms pour le même concept", "Le Deep Learning est plus ancien que le ML", "Le ML inclut l'IA"],
+    "answer": "L'IA est le domaine général, le ML en est un sous-ensemble, le Deep Learning est un sous-ensemble du ML",
+    "explanation": "L'IA est le domaine global simulant l'intelligence humaine. Le ML est une approche de l'IA basée sur l'apprentissage statistique. Le Deep Learning est une technique de ML utilisant des réseaux profonds."
+  },
+  {
+    "question": "Qu'est-ce que le Dropout dans l'entraînement d'un réseau de neurones ?",
+    "options": ["Technique de régularisation désactivant aléatoirement des neurones pendant l'entraînement", "L'arrêt prématuré de l'entraînement", "La suppression de données aberrantes", "Un type de couche de normalisation"],
+    "answer": "Technique de régularisation désactivant aléatoirement des neurones pendant l'entraînement",
+    "explanation": "Le Dropout désactive aléatoirement un pourcentage de neurones à chaque itération d'entraînement, forçant le réseau à apprendre des représentations redondantes et réduisant l'overfitting."
+  },
+  {
+    "question": "Qu'est-ce qu'un hyperparamètre en Machine Learning ?",
+    "options": ["Paramètre défini avant l'entraînement qui contrôle le processus d'apprentissage", "Paramètre appris automatiquement pendant l'entraînement", "Un paramètre de performance du serveur", "Le résultat final du modèle entraîné"],
+    "answer": "Paramètre défini avant l'entraînement qui contrôle le processus d'apprentissage",
+    "explanation": "Les hyperparamètres (taux d'apprentissage, nombre de couches, taille du batch) sont définis avant l'entraînement et contrôlent comment le modèle apprend, contrairement aux paramètres appris automatiquement."
+  }
+]

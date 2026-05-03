@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Quel type de données Python stocke une séquence ordonnée et modifiable d'éléments ?",
+    "options": ["list", "tuple", "set", "dict"],
+    "answer": "list",
+    "explanation": "Une liste Python est une séquence ordonnée et mutable (modifiable) définie avec []. Contrairement au tuple (immuable) et au set (non-ordonné), la liste permet l'ajout, la suppression et la modification."
+  },
+  {
+    "question": "Quelle est la différence entre une liste et un tuple en Python ?",
+    "options": ["Les listes sont mutables, les tuples sont immuables", "Les tuples peuvent contenir plus d'éléments", "Les listes sont plus rapides que les tuples", "Il n'y a aucune différence"],
+    "answer": "Les listes sont mutables, les tuples sont immuables",
+    "explanation": "Les listes (définie avec []) peuvent être modifiées après création. Les tuples (définis avec ()) sont immuables - leurs éléments ne peuvent pas être changés, ce qui les rend plus rapides et sûrs."
+  },
+  {
+    "question": "Qu'est-ce qu'un décorateur Python ?",
+    "options": ["Fonction qui enveloppe une autre fonction pour modifier son comportement", "Un commentaire de documentation", "Un type de variable spéciale", "Un outil de formatage du code"],
+    "answer": "Fonction qui enveloppe une autre fonction pour modifier son comportement",
+    "explanation": "Un décorateur est une fonction qui prend une fonction comme argument et retourne une nouvelle fonction avec un comportement modifié ou étendu, utilisé avec la syntaxe @decorator."
+  },
+  {
+    "question": "Que fait la méthode list.append() en Python ?",
+    "options": ["Ajoute un élément à la fin de la liste", "Ajoute un élément au début de la liste", "Insère un élément à une position donnée", "Fusionne deux listes"],
+    "answer": "Ajoute un élément à la fin de la liste",
+    "explanation": "list.append(element) ajoute un seul élément à la fin de la liste en place (modifie la liste originale). Pour ajouter au début, on utilise insert(0, element). Pour fusionner, on utilise extend() ou +=."
+  },
+  {
+    "question": "Qu'est-ce qu'une compréhension de liste (list comprehension) en Python ?",
+    "options": ["Syntaxe concise pour créer une liste à partir d'un itérable avec une expression", "Un outil d'analyse des listes Python", "Une méthode de tri avancée", "Un type de liste spéciale"],
+    "answer": "Syntaxe concise pour créer une liste à partir d'un itérable avec une expression",
+    "explanation": "La list comprehension [expr for item in iterable if condition] crée une nouvelle liste de manière concise et souvent plus lisible qu'une boucle for. Exemple : [x**2 for x in range(10) if x%2==0]."
+  },
+  {
+    "question": "Que signifie *args et **kwargs dans une définition de fonction Python ?",
+    "options": ["*args = arguments positionnels variables, **kwargs = arguments nommés variables", "*args = un seul argument obligatoire, **kwargs = argument optionnel", "*args = liste d'arguments, **kwargs = dictionnaire obligatoire", "Ce sont des syntaxes pour les commentaires"],
+    "answer": "*args = arguments positionnels variables, **kwargs = arguments nommés variables",
+    "explanation": "*args capture un nombre variable d'arguments positionnels dans un tuple. **kwargs capture un nombre variable d'arguments nommés (clé=valeur) dans un dictionnaire."
+  },
+  {
+    "question": "Qu'est-ce qu'un générateur (generator) en Python ?",
+    "options": ["Fonction qui utilise yield pour produire des valeurs à la demande sans tout charger en mémoire", "Un outil de génération de code automatique", "Un créateur de listes Python", "Un module de génération de nombres aléatoires"],
+    "answer": "Fonction qui utilise yield pour produire des valeurs à la demande sans tout charger en mémoire",
+    "explanation": "Un générateur utilise yield au lieu de return pour produire des valeurs une à une, à la demande. Très efficace en mémoire pour traiter de grandes séquences de données sans les charger intégralement."
+  },
+  {
+    "question": "Qu'est-ce que le PEP 8 en Python ?",
+    "options": ["Guide officiel de style et conventions de codage Python", "La version 8 du langage Python", "Un outil d'optimisation de performance", "Un protocole de sécurité Python"],
+    "answer": "Guide officiel de style et conventions de codage Python",
+    "explanation": "PEP 8 (Python Enhancement Proposal 8) est le guide de style officiel Python définissant les conventions : indentation 4 espaces, longueur max des lignes, nommage des variables, etc."
+  },
+  {
+    "question": "Quel est le résultat de 5 // 2 en Python ?",
+    "options": ["2", "2.5", "3", "1"],
+    "answer": "2",
+    "explanation": "L'opérateur // est la division entière (floor division) en Python. 5 // 2 = 2 car le résultat est arrondi vers le bas à l'entier inférieur. L'opérateur / donnerait 2.5."
+  },
+  {
+    "question": "Qu'est-ce qu'un dictionnaire Python ?",
+    "options": ["Collection non-ordonnée de paires clé-valeur uniques", "Une liste ordonnée de mots", "Un type de liste immuable", "Un tableau à deux dimensions"],
+    "answer": "Collection non-ordonnée de paires clé-valeur uniques",
+    "explanation": "Un dictionnaire Python (dict) stocke des données sous forme de paires clé-valeur. Depuis Python 3.7+, il maintient l'ordre d'insertion. Les clés sont uniques et immuables (str, int, tuple)."
+  },
+  {
+    "question": "Que fait la fonction enumerate() en Python ?",
+    "options": ["Retourne un itérable de tuples (index, valeur) pour chaque élément", "Compte le nombre d'éléments d'une liste", "Trie les éléments d'une liste", "Convertit une liste en dictionnaire"],
+    "answer": "Retourne un itérable de tuples (index, valeur) pour chaque élément",
+    "explanation": "enumerate(iterable) retourne des tuples (index, valeur), permettant d'itérer sur une séquence tout en ayant accès à l'index. Exemple : for i, val in enumerate(['a','b']): évite d'utiliser range(len())."
+  },
+  {
+    "question": "Qu'est-ce que la gestion des exceptions avec try/except en Python ?",
+    "options": ["Mécanisme pour capturer et gérer les erreurs d'exécution sans crasher le programme", "Un système de tests unitaires", "Un outil de débogage", "Un type de condition if/else amélioré"],
+    "answer": "Mécanisme pour capturer et gérer les erreurs d'exécution sans crasher le programme",
+    "explanation": "try/except permet de définir du code risqué dans le bloc try et de le gérer si une exception se produit dans except. On peut cibler des exceptions spécifiques : except ValueError, except FileNotFoundError."
+  },
+  {
+    "question": "Qu'est-ce qu'une lambda function en Python ?",
+    "options": ["Fonction anonyme définie en une seule ligne avec le mot-clé lambda", "Une fonction récursive", "Une fonction importée d'un module externe", "Un alias pour une fonction existante"],
+    "answer": "Fonction anonyme définie en une seule ligne avec le mot-clé lambda",
+    "explanation": "Une lambda est une fonction anonyme à expression unique : lambda x: x*2. Utile pour des fonctions courtes passées en argument (sorted, map, filter) sans nécessiter def."
+  },
+  {
+    "question": "Que fait la fonction map() en Python ?",
+    "options": ["Applique une fonction à chaque élément d'un itérable et retourne un itérateur", "Crée une carte géographique", "Mappe des clés sur des valeurs dans un dictionnaire", "Parcourt un répertoire de fichiers"],
+    "answer": "Applique une fonction à chaque élément d'un itérable et retourne un itérateur",
+    "explanation": "map(function, iterable) applique function à chaque élément de iterable et retourne un objet map (itérateur). Exemple : list(map(lambda x: x*2, [1,2,3])) retourne [2, 4, 6]."
+  },
+  {
+    "question": "Qu'est-ce que le mot-clé with en Python ?",
+    "options": ["Gestionnaire de contexte qui assure la libération automatique des ressources", "Une boucle conditionnelle", "Un alias pour import", "Un modificateur de fonction"],
+    "answer": "Gestionnaire de contexte qui assure la libération automatique des ressources",
+    "explanation": "with assure l'ouverture ET la fermeture automatique d'une ressource (fichier, connexion DB), même en cas d'exception. Exemple : with open('file.txt') as f: garantit la fermeture du fichier."
+  },
+  {
+    "question": "Que fait __init__ dans une classe Python ?",
+    "options": ["Méthode constructeur appelée automatiquement lors de la création d'une instance", "Méthode de destruction de l'objet", "Méthode statique de la classe", "Méthode d'initialisation du module"],
+    "answer": "Méthode constructeur appelée automatiquement lors de la création d'une instance",
+    "explanation": "__init__ est la méthode spéciale (dunder method) appelée automatiquement quand une instance de classe est créée. Elle initialise les attributs de l'objet via self.attribut = valeur."
+  },
+  {
+    "question": "Qu'est-ce que pip en Python ?",
+    "options": ["Gestionnaire de packages officiel de Python pour installer des bibliothèques", "Un interpréteur Python alternatif", "Un outil de débogage Python", "Un environnement de développement intégré"],
+    "answer": "Gestionnaire de packages officiel de Python pour installer des bibliothèques",
+    "explanation": "pip (Pip Installs Packages) est le gestionnaire de packages standard de Python. Il installe des packages depuis PyPI : pip install numpy, pip install requests, pip install flask."
+  },
+  {
+    "question": "Qu'est-ce qu'un environnement virtuel Python (venv) ?",
+    "options": ["Environnement Python isolé avec ses propres packages indépendants des autres projets", "Un émulateur Python pour Windows", "Un outil de virtualisation du système", "Un serveur Python dédié"],
+    "answer": "Environnement Python isolé avec ses propres packages indépendants des autres projets",
+    "explanation": "Un venv crée un répertoire avec sa propre installation Python et ses packages, permettant à différents projets d'avoir des versions différentes des mêmes packages sans conflits."
+  },
+  {
+    "question": "Que retourne len('Hello') en Python ?",
+    "options": ["5", "4", "6", "Hello"],
+    "answer": "5",
+    "explanation": "len() retourne le nombre de caractères d'une chaîne. 'Hello' contient 5 caractères : H, e, l, l, o. len() fonctionne aussi sur les listes, tuples, dictionnaires et autres itérables."
+  },
+  {
+    "question": "Quelle est la différence entre == et is en Python ?",
+    "options": ["== compare les valeurs, is compare l'identité des objets en mémoire", "is est la version plus précise de ==", "== compare les types, is compare les valeurs", "Ils sont identiques"],
+    "answer": "== compare les valeurs, is compare l'identité des objets en mémoire",
+    "explanation": "== vérifie si deux objets ont la même valeur. is vérifie s'ils pointent vers le même objet en mémoire (même identité). [1,2] == [1,2] est True, mais [1,2] is [1,2] est False (deux objets distincts)."
+  },
+  {
+    "question": "Qu'est-ce que le slicing en Python ?",
+    "options": ["Technique d'extraction de sous-séquences avec la syntaxe [start:stop:step]", "Un algorithme de tri", "Une technique de découpe de chaînes uniquement", "Une opération mathématique"],
+    "answer": "Technique d'extraction de sous-séquences avec la syntaxe [start:stop:step]",
+    "explanation": "Le slicing extrait des sous-séquences de listes, tuples ou chaînes. Exemples : 'Python'[1:4] = 'yth', [1,2,3,4,5][::2] = [1,3,5], 'hello'[::-1] = 'olleh' (inverser)."
+  },
+  {
+    "question": "Qu'est-ce que NumPy en Python ?",
+    "options": ["Bibliothèque fondamentale pour le calcul scientifique et les tableaux multidimensionnels", "Un outil de visualisation de données", "Un framework web Python", "Un gestionnaire de bases de données"],
+    "answer": "Bibliothèque fondamentale pour le calcul scientifique et les tableaux multidimensionnels",
+    "explanation": "NumPy fournit des tableaux N-dimensionnels (ndarray) et des fonctions mathématiques efficaces vectorisées. C'est la fondation de l'écosystème scientifique Python (Pandas, Matplotlib, Scikit-learn)."
+  }
+]

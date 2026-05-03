@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Que signifie l'acronyme IoT ?",
+    "options": ["Internet of Things", "Input of Technology", "Integration of Things", "Internet of Technology"],
+    "answer": "Internet of Things",
+    "explanation": "IoT (Internet des Objets) désigne l'ensemble des objets physiques connectés à Internet qui communiquent entre eux et avec des systèmes distants."
+  },
+  {
+    "question": "Quel protocole de messagerie est le plus utilisé dans les systèmes IoT pour sa légèreté ?",
+    "options": ["HTTP", "MQTT", "FTP", "SMTP"],
+    "answer": "MQTT",
+    "explanation": "MQTT (Message Queuing Telemetry Transport) est un protocole léger basé sur le modèle publication/abonnement, idéal pour les appareils IoT à faible consommation d'énergie."
+  },
+  {
+    "question": "Quel microcontrôleur open-source est souvent utilisé dans les projets IoT pour les débutants ?",
+    "options": ["Raspberry Pi", "Arduino", "FPGA", "Intel NUC"],
+    "answer": "Arduino",
+    "explanation": "Arduino est une plateforme open-source à base de microcontrôleur, populaire pour les projets IoT grâce à sa simplicité et son large écosystème de bibliothèques."
+  },
+  {
+    "question": "Quelle est la principale différence entre Arduino et Raspberry Pi ?",
+    "options": ["Arduino est un microcontrôleur, Raspberry Pi est un mini-ordinateur", "Raspberry Pi est plus simple à utiliser", "Arduino supporte Linux natif", "Les deux sont identiques"],
+    "answer": "Arduino est un microcontrôleur, Raspberry Pi est un mini-ordinateur",
+    "explanation": "Arduino est un microcontrôleur simple qui exécute une tâche à la fois, tandis que le Raspberry Pi est un mini-ordinateur Linux capable d'exécuter plusieurs processus simultanément."
+  },
+  {
+    "question": "Quel protocole sans fil court-portée est utilisé pour la communication entre appareils IoT basse consommation ?",
+    "options": ["Zigbee", "Wi-Fi", "4G LTE", "Bluetooth 3.0"],
+    "answer": "Zigbee",
+    "explanation": "Zigbee est un protocole de communication sans fil à faible consommation d'énergie basé sur la norme IEEE 802.15.4, largement utilisé dans la domotique et l'IoT industriel."
+  },
+  {
+    "question": "Qu'est-ce que l'Edge Computing dans le contexte IoT ?",
+    "options": ["Traitement des données au plus près des appareils IoT", "Stockage de données dans le cloud", "Un type de réseau Wi-Fi", "Un protocole de sécurité"],
+    "answer": "Traitement des données au plus près des appareils IoT",
+    "explanation": "L'Edge Computing consiste à traiter les données au plus près de leur source (sur l'appareil ou un serveur local), réduisant ainsi la latence et la consommation de bande passante vers le cloud."
+  },
+  {
+    "question": "Que signifie RFID dans le contexte IoT ?",
+    "options": ["Radio Frequency Identification", "Remote File Internet Data", "Real-time Frequency Interface Device", "Radio Format Internet Device"],
+    "answer": "Radio Frequency Identification",
+    "explanation": "RFID est une technologie d'identification automatique utilisant des ondes radio pour lire des étiquettes électroniques, largement utilisée dans la logistique, les transports et l'accès."
+  },
+  {
+    "question": "Quel protocole IoT est spécialement conçu pour les réseaux longue portée à faible consommation (LPWAN) ?",
+    "options": ["LoRaWAN", "Bluetooth", "Wi-Fi 6", "Ethernet"],
+    "answer": "LoRaWAN",
+    "explanation": "LoRaWAN (Long Range Wide Area Network) est un protocole LPWAN qui permet des communications longue portée (jusqu'à 15 km) avec une très faible consommation d'énergie."
+  },
+  {
+    "question": "Quel est le rôle d'une passerelle (gateway) IoT ?",
+    "options": ["Faire la liaison entre les appareils IoT et le réseau/cloud", "Stocker les données des capteurs", "Alimenter les appareils IoT", "Crypter les données IoT"],
+    "answer": "Faire la liaison entre les appareils IoT et le réseau/cloud",
+    "explanation": "Une passerelle IoT sert d'intermédiaire entre les appareils locaux (utilisant des protocoles comme Zigbee ou Bluetooth) et Internet ou le cloud, assurant la traduction de protocoles."
+  },
+  {
+    "question": "Qu'est-ce que NFC ?",
+    "options": ["Near Field Communication", "Network Frequency Control", "Node Field Connector", "New Format Communication"],
+    "answer": "Near Field Communication",
+    "explanation": "NFC (Communication en Champ Proche) est une technologie de communication sans fil à très courte portée (moins de 10 cm), utilisée pour les paiements sans contact et l'identification."
+  },
+  {
+    "question": "Pourquoi IPv6 est-il crucial pour le développement de l'IoT ?",
+    "options": ["Il fournit un nombre quasi-illimité d'adresses IP", "Il est plus rapide qu'IPv4", "Il améliore la sécurité Wi-Fi", "Il réduit la consommation d'énergie"],
+    "answer": "Il fournit un nombre quasi-illimité d'adresses IP",
+    "explanation": "IPv6 offre 340 undécillions d'adresses IP, contre seulement 4 milliards pour IPv4, ce qui est indispensable pour connecter les milliards d'appareils IoT prévus dans le monde."
+  },
+  {
+    "question": "Qu'est-ce que le Fog Computing ?",
+    "options": ["Couche intermédiaire entre les appareils IoT et le cloud", "Un type de stockage cloud", "Un protocole de sécurité IoT", "Une technologie de capteurs"],
+    "answer": "Couche intermédiaire entre les appareils IoT et le cloud",
+    "explanation": "Le Fog Computing est une architecture distribuée qui place la computation entre les appareils IoT et le cloud, réduisant la latence et permettant un traitement local rapide."
+  },
+  {
+    "question": "Quelle technologie de communication permet aux appareils Bluetooth IoT de consommer très peu d'énergie ?",
+    "options": ["Bluetooth Low Energy (BLE)", "Bluetooth Classic", "Bluetooth 5G", "Bluetooth Mesh"],
+    "answer": "Bluetooth Low Energy (BLE)",
+    "explanation": "BLE (Bluetooth Low Energy) est une variante du Bluetooth optimisée pour une très faible consommation d'énergie, permettant aux appareils IoT de fonctionner sur batterie pendant des années."
+  },
+  {
+    "question": "Qu'est-ce qu'un jumeau numérique (Digital Twin) en IoT ?",
+    "options": ["Réplique virtuelle d'un objet physique en temps réel", "Un apppareil IoT dupliqué", "Une copie de sauvegarde des données", "Un protocole de communication"],
+    "answer": "Réplique virtuelle d'un objet physique en temps réel",
+    "explanation": "Un jumeau numérique est une représentation virtuelle d'un objet physique, mise à jour en temps réel grâce aux données IoT, utilisé pour la surveillance, la maintenance et la simulation."
+  },
+  {
+    "question": "Qu'est-ce que l'IIoT ?",
+    "options": ["Internet Industriel des Objets", "Interface Internet of Things", "Integrated IoT", "Internet of Internet Things"],
+    "answer": "Internet Industriel des Objets",
+    "explanation": "L'IIoT (Industrial Internet of Things) désigne l'application des technologies IoT dans les environnements industriels, pour optimiser la production, la maintenance et la sécurité."
+  },
+  {
+    "question": "Quel type de capteur mesure la pression atmosphérique dans les systèmes IoT météorologiques ?",
+    "options": ["Baromètre / capteur de pression", "Thermomètre", "Hygromètre", "Anémomètre"],
+    "answer": "Baromètre / capteur de pression",
+    "explanation": "Un baromètre ou capteur de pression barométrique mesure la pression de l'air. Dans les stations météo IoT, il est souvent combiné avec un thermomètre et un hygromètre."
+  },
+  {
+    "question": "Quel est l'objectif principal de la plateforme AWS IoT Core d'Amazon ?",
+    "options": ["Connecter des appareils IoT au cloud AWS", "Vendre du matériel IoT", "Programmer des microcontrôleurs", "Gérer les réseaux Wi-Fi"],
+    "answer": "Connecter des appareils IoT au cloud AWS",
+    "explanation": "AWS IoT Core est un service cloud géré qui permet aux appareils IoT de se connecter de manière sécurisée au cloud AWS pour envoyer, recevoir et traiter des données."
+  },
+  {
+    "question": "Quel protocole de réseau sans fil est utilisé pour les systèmes de maison intelligente Z-Wave ?",
+    "options": ["Z-Wave (868 MHz en Europe)", "Wi-Fi 2.4 GHz", "Bluetooth 4.0", "Zigbee 2.4 GHz"],
+    "answer": "Z-Wave (868 MHz en Europe)",
+    "explanation": "Z-Wave utilise la bande de fréquence sub-GHz (868 MHz en Europe, 908 MHz aux USA), offrant une meilleure pénétration des murs et moins d'interférences que le Wi-Fi 2.4 GHz."
+  },
+  {
+    "question": "Qu'est-ce qu'un actuateur dans un système IoT ?",
+    "options": ["Composant qui agit sur l'environnement physique", "Composant qui mesure des données", "Protocole de communication", "Module de stockage"],
+    "answer": "Composant qui agit sur l'environnement physique",
+    "explanation": "Un actuateur est un composant qui convertit un signal électrique en action physique (allumer une LED, ouvrir une vanne, faire tourner un moteur), contrairement aux capteurs qui mesurent."
+  },
+  {
+    "question": "Quelle est la principale menace de sécurité dans les systèmes IoT ?",
+    "options": ["Mots de passe par défaut non changés et manque de mises à jour", "Consommation d'énergie trop élevée", "Incompatibilité entre protocoles", "Latence des réseaux"],
+    "answer": "Mots de passe par défaut non changés et manque de mises à jour",
+    "explanation": "La majorité des failles de sécurité IoT proviennent des identifiants par défaut non modifiés et de l'absence de mises à jour de firmware, rendant les appareils vulnérables aux attaques."
+  },
+  {
+    "question": "Qu'est-ce que le protocole CoAP ?",
+    "options": ["Constrained Application Protocol", "Common Object Application Protocol", "Cloud Open API Protocol", "Connected Object Access Protocol"],
+    "answer": "Constrained Application Protocol",
+    "explanation": "CoAP est un protocole de couche applicative similaire à HTTP mais optimisé pour les appareils à ressources limitées (faible mémoire, faible puissance de calcul) dans les réseaux IoT."
+  },
+  {
+    "question": "Dans un système IoT, que fait un hub intelligent (smart hub) ?",
+    "options": ["Centralise et gère la communication entre tous les appareils connectés", "Génère de l'électricité pour les appareils", "Analyse uniquement les données de sécurité", "Remplace le routeur Wi-Fi"],
+    "answer": "Centralise et gère la communication entre tous les appareils connectés",
+    "explanation": "Un hub intelligent est le point central qui coordonne et gère tous les appareils d'une maison intelligente, permettant leur contrôle unifié via une application ou la voix."
+  }
+]

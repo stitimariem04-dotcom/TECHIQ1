@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Qu'est-ce qu'une attaque par phishing ?",
+    "options": ["Tentative de vol d'informations en se faisant passer pour une entité de confiance", "Une attaque qui surcharge un serveur", "Un virus qui chiffre les fichiers", "Une intrusion physique dans un datacenter"],
+    "answer": "Tentative de vol d'informations en se faisant passer pour une entité de confiance",
+    "explanation": "Le phishing consiste à usurper l'identité d'une entité légitime (banque, service en ligne) via email ou faux site web pour tromper la victime et lui voler ses identifiants ou données sensibles."
+  },
+  {
+    "question": "Que signifie l'acronyme SSL/TLS ?",
+    "options": ["Secure Sockets Layer / Transport Layer Security", "System Security Layer / Transfer Level Security", "Secure Server Link / Trusted Login System", "Standard Socket Link / Transport Login Security"],
+    "answer": "Secure Sockets Layer / Transport Layer Security",
+    "explanation": "SSL et son successeur TLS sont des protocoles cryptographiques qui assurent la confidentialité et l'intégrité des communications sur Internet, représentés par le cadenas HTTPS dans les navigateurs."
+  },
+  {
+    "question": "Qu'est-ce qu'un ransomware ?",
+    "options": ["Logiciel malveillant chiffrant les fichiers et exigeant une rançon pour les déchiffrer", "Un logiciel espion", "Un virus qui se propage par clé USB", "Un logiciel de surveillance réseau"],
+    "answer": "Logiciel malveillant chiffrant les fichiers et exigeant une rançon pour les déchiffrer",
+    "explanation": "Un ransomware chiffre les fichiers de la victime ou bloque l'accès au système, puis exige le paiement d'une rançon (souvent en cryptomonnaie) pour fournir la clé de déchiffrement."
+  },
+  {
+    "question": "Que signifie l'acronyme VPN ?",
+    "options": ["Virtual Private Network", "Verified Public Network", "Virtual Protected Node", "Validated Private Node"],
+    "answer": "Virtual Private Network",
+    "explanation": "Un VPN crée un tunnel chiffré entre votre appareil et un serveur distant, masquant votre adresse IP et chiffrant vos données pour protéger votre vie privée et sécuriser les connexions publiques."
+  },
+  {
+    "question": "Qu'est-ce qu'une attaque DDoS ?",
+    "options": ["Attaque par déni de service distribué qui sature un serveur avec un flux massif de requêtes", "Une attaque ciblant les bases de données", "Un virus se propageant de machine en machine", "Une attaque par force brute sur un mot de passe"],
+    "answer": "Attaque par déni de service distribué qui sature un serveur avec un flux massif de requêtes",
+    "explanation": "Une attaque DDoS (Distributed Denial of Service) utilise un réseau de machines compromises (botnet) pour inonder simultanément un serveur de requêtes, le rendant inaccessible aux utilisateurs légitimes."
+  },
+  {
+    "question": "Qu'est-ce que l'authentification à deux facteurs (2FA) ?",
+    "options": ["Méthode d'authentification combinant deux preuves d'identité distinctes", "Un double mot de passe", "Une authentification biométrique avancée", "Un certificat numérique"],
+    "answer": "Méthode d'authentification combinant deux preuves d'identité distinctes",
+    "explanation": "Le 2FA exige deux types de vérification différents : quelque chose que vous savez (mot de passe), quelque chose que vous possédez (téléphone), ou quelque chose que vous êtes (biométrie)."
+  },
+  {
+    "question": "Qu'est-ce qu'une injection SQL ?",
+    "options": ["Insertion de code SQL malveillant dans une requête via une entrée utilisateur non validée", "Un outil d'optimisation de base de données", "Une technique de migration de données", "Un protocole de sauvegarde SQL"],
+    "answer": "Insertion de code SQL malveillant dans une requête via une entrée utilisateur non validée",
+    "explanation": "L'injection SQL exploite un manque de validation des entrées pour insérer des commandes SQL malveillantes qui peuvent lire, modifier ou supprimer des données dans une base de données."
+  },
+  {
+    "question": "Qu'est-ce que le chiffrement asymétrique ?",
+    "options": ["Utilise une paire de clés : une clé publique pour chiffrer et une clé privée pour déchiffrer", "Utilise la même clé pour chiffrer et déchiffrer", "Chiffrement basé sur l'empreinte digitale", "Chiffrement par substitution de caractères"],
+    "answer": "Utilise une paire de clés : une clé publique pour chiffrer et une clé privée pour déchiffrer",
+    "explanation": "Le chiffrement asymétrique (RSA, ECC) utilise deux clés mathématiquement liées : la clé publique chiffre les données, seule la clé privée correspondante peut les déchiffrer."
+  },
+  {
+    "question": "Qu'est-ce qu'un certificat SSL/TLS ?",
+    "options": ["Document numérique qui authentifie l'identité d'un site web et chiffre les communications", "Un fichier de configuration du serveur", "Une licence d'utilisation du protocole HTTPS", "Un fichier de clé de chiffrement symétrique"],
+    "answer": "Document numérique qui authentifie l'identité d'un site web et chiffre les communications",
+    "explanation": "Un certificat SSL/TLS est émis par une Autorité de Certification (CA) et lie l'identité d'un domaine à une clé cryptographique, permettant les connexions HTTPS sécurisées."
+  },
+  {
+    "question": "Qu'est-ce que le principe du moindre privilège ?",
+    "options": ["Accorder à chaque utilisateur/système uniquement les droits minimaux nécessaires à sa fonction", "Réduire le nombre d'utilisateurs du système", "Bloquer tous les accès par défaut", "Supprimer les comptes administrateurs"],
+    "answer": "Accorder à chaque utilisateur/système uniquement les droits minimaux nécessaires à sa fonction",
+    "explanation": "Ce principe de sécurité limite les accès de chaque entité au strict nécessaire de sa mission, réduisant la surface d'attaque et limitant les dégâts en cas de compromission d'un compte."
+  },
+  {
+    "question": "Qu'est-ce qu'un firewall (pare-feu) ?",
+    "options": ["Système de sécurité filtrant le trafic réseau entrant et sortant selon des règles définies", "Un antivirus avancé", "Un système de détection d'intrusion", "Un protocole de chiffrement réseau"],
+    "answer": "Système de sécurité filtrant le trafic réseau entrant et sortant selon des règles définies",
+    "explanation": "Un pare-feu surveille et contrôle le trafic réseau selon des règles de sécurité prédéfinies, bloquant les connexions non autorisées tout en permettant le trafic légitime."
+  },
+  {
+    "question": "Qu'est-ce qu'une attaque Man-in-the-Middle (MitM) ?",
+    "options": ["L'attaquant s'interpose secrètement entre deux parties qui communiquent", "Une attaque simultanée sur plusieurs serveurs", "Un accès non autorisé à une base de données", "Une infection par un cheval de Troie"],
+    "answer": "L'attaquant s'interpose secrètement entre deux parties qui communiquent",
+    "explanation": "Dans une attaque MitM, l'attaquant intercepte et peut modifier les communications entre deux parties (client/serveur) à leur insu, pouvant voler des identifiants ou des données sensibles."
+  },
+  {
+    "question": "Que signifie CVE en sécurité informatique ?",
+    "options": ["Common Vulnerabilities and Exposures", "Critical Vulnerability Exploit", "Cyber Vulnerability Engine", "Common Virus Entry"],
+    "answer": "Common Vulnerabilities and Exposures",
+    "explanation": "CVE est un système standardisé d'identification des vulnérabilités de sécurité connues. Chaque CVE reçoit un identifiant unique (ex: CVE-2021-44228) permettant aux professionnels de référencer la même faille."
+  },
+  {
+    "question": "Qu'est-ce que le Social Engineering (ingénierie sociale) ?",
+    "options": ["Manipulation psychologique d'une personne pour lui soutirer des informations confidentielles", "Construction de réseaux sociaux sécurisés", "Formation des employés à la sécurité", "Analyse du comportement des utilisateurs"],
+    "answer": "Manipulation psychologique d'une personne pour lui soutirer des informations confidentielles",
+    "explanation": "L'ingénierie sociale exploite la psychologie humaine (confiance, peur, urgence) plutôt que les failles techniques, pour pousser une personne à révéler des informations ou réaliser des actions compromettantes."
+  },
+  {
+    "question": "Qu'est-ce qu'un hash cryptographique ?",
+    "options": ["Fonction qui transforme des données de longueur variable en empreinte de taille fixe irréversible", "Un algorithme de chiffrement symétrique", "Une technique de compression de données", "Un protocole de signature numérique"],
+    "answer": "Fonction qui transforme des données de longueur variable en empreinte de taille fixe irréversible",
+    "explanation": "Un hash (SHA-256, MD5) génère une empreinte numérique unique et de taille fixe à partir de données quelconques. Il est unidirectionnel : impossible de retrouver les données originales depuis le hash."
+  },
+  {
+    "question": "Qu'est-ce qu'un test de pénétration (pentest) ?",
+    "options": ["Simulation d'attaque autorisée pour identifier les vulnérabilités d'un système", "Test de la vitesse du réseau", "Vérification de la conformité RGPD", "Audit des droits d'accès utilisateurs"],
+    "answer": "Simulation d'attaque autorisée pour identifier les vulnérabilités d'un système",
+    "explanation": "Un pentest est une attaque simulée et autorisée réalisée par des professionnels (ethical hackers) pour identifier les failles de sécurité d'un système avant qu'elles ne soient exploitées par des attaquants."
+  },
+  {
+    "question": "Qu'est-ce que le Zero-Day (vulnérabilité zero-day) ?",
+    "options": ["Vulnérabilité inconnue des éditeurs et pour laquelle aucun patch n'existe encore", "Un bug corrigé en une journée", "Une attaque survenant à minuit", "Un virus actif depuis zéro jour"],
+    "answer": "Vulnérabilité inconnue des éditeurs et pour laquelle aucun patch n'existe encore",
+    "explanation": "Une vulnérabilité zero-day est une faille inconnue du fabricant ou non encore corrigée. Les attaquants qui la découvrent ont 'zéro jour' d'avance sur les défenseurs, la rendant particulièrement dangereuse."
+  },
+  {
+    "question": "Qu'est-ce que le RGPD ?",
+    "options": ["Règlement Général sur la Protection des Données de l'Union Européenne", "Réseau Global de Protection des Données", "Registre Général de Protection Digitale", "Règlement sur la Gestion des Processus de Données"],
+    "answer": "Règlement Général sur la Protection des Données de l'Union Européenne",
+    "explanation": "Le RGPD (GDPR en anglais) est la réglementation européenne qui protège les données personnelles des citoyens de l'UE. Il impose aux organisations des obligations strictes sur la collecte et le traitement des données."
+  },
+  {
+    "question": "Qu'est-ce qu'un botnet ?",
+    "options": ["Réseau de machines infectées contrôlées à distance par un attaquant", "Un réseau de robots industriels connectés", "Un outil d'automatisation des tests de sécurité", "Un système de détection d'intrusion automatique"],
+    "answer": "Réseau de machines infectées contrôlées à distance par un attaquant",
+    "explanation": "Un botnet est un réseau de milliers (ou millions) de machines compromises (bots/zombies) contrôlées par un attaquant (bot-herder), utilisé pour envoyer du spam, lancer des DDoS ou miner des cryptomonnaies."
+  },
+  {
+    "question": "Qu'est-ce que l'algorithme AES ?",
+    "options": ["Advanced Encryption Standard, algorithme de chiffrement symétrique de référence", "Advanced Error Scanning, outil de détection de virus", "Automated Exploit System", "Application Encryption Service"],
+    "answer": "Advanced Encryption Standard, algorithme de chiffrement symétrique de référence",
+    "explanation": "AES est le standard de chiffrement symétrique adopté par le NIST en 2001. Il chiffre les données par blocs de 128 bits avec des clés de 128, 192 ou 256 bits, et est utilisé dans HTTPS, VPN et WPA2."
+  },
+  {
+    "question": "Qu'est-ce que la stéganographie ?",
+    "options": ["Art de dissimuler un message secret dans un support anodin (image, audio)", "Étude de la calligraphie numérique", "Technique de compression d'images sécurisée", "Protocole de signature de documents"],
+    "answer": "Art de dissimuler un message secret dans un support anodin (image, audio)",
+    "explanation": "La stéganographie cache l'existence même d'un message en l'insérant dans un support courant (image, fichier audio), contrairement à la cryptographie qui cache son contenu mais pas son existence."
+  },
+  {
+    "question": "Quelle est la différence entre un virus et un ver informatique ?",
+    "options": ["Un virus nécessite un hôte pour se propager, un ver se propage seul via le réseau", "Un ver est moins dangereux qu'un virus", "Un virus se propage par email, un ver par clé USB", "Ils sont identiques"],
+    "answer": "Un virus nécessite un hôte pour se propager, un ver se propage seul via le réseau",
+    "explanation": "Un virus doit s'attacher à un programme hôte pour se propager, nécessitant une action de l'utilisateur. Un ver est autonome et se propage automatiquement via les réseaux sans intervention humaine."
+  }
+]

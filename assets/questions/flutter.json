@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Qu'est-ce que Flutter ?",
+    "options": ["Un framework UI open-source de Google pour créer des applications multiplateformes", "Un langage de programmation", "Un serveur backend", "Une base de données mobile"],
+    "answer": "Un framework UI open-source de Google pour créer des applications multiplateformes",
+    "explanation": "Flutter est un framework de Google qui permet de créer des applications mobiles, web et desktop à partir d'un seul code source, en utilisant le langage Dart."
+  },
+  {
+    "question": "Quel langage de programmation utilise Flutter ?",
+    "options": ["Dart", "JavaScript", "Kotlin", "Swift"],
+    "answer": "Dart",
+    "explanation": "Flutter utilise Dart, un langage orienté objet créé par Google, compilé en code natif pour des performances optimales sur toutes les plateformes cibles."
+  },
+  {
+    "question": "Quelle est la différence entre un StatelessWidget et un StatefulWidget ?",
+    "options": ["StatelessWidget est immuable, StatefulWidget peut changer d'état", "StatelessWidget est plus rapide", "StatefulWidget ne peut pas avoir de style", "Ils sont identiques"],
+    "answer": "StatelessWidget est immuable, StatefulWidget peut changer d'état",
+    "explanation": "Un StatelessWidget ne peut pas changer après sa création, tandis qu'un StatefulWidget possède un objet State qui peut se reconstruire dynamiquement via setState()."
+  },
+  {
+    "question": "Que fait la méthode setState() dans Flutter ?",
+    "options": ["Notifie le framework de reconstruire le widget avec les nouvelles données", "Sauvegarde les données dans la base", "Change le thème de l'application", "Navigue vers un autre écran"],
+    "answer": "Notifie le framework de reconstruire le widget avec les nouvelles données",
+    "explanation": "setState() informe Flutter que l'état interne a changé et déclenche une reconstruction du widget et de ses enfants, mettant à jour l'interface utilisateur."
+  },
+  {
+    "question": "Qu'est-ce que le Hot Reload dans Flutter ?",
+    "options": ["Injection du code modifié dans la VM Dart en cours d'exécution sans redémarrer", "Redémarrage complet de l'application", "Rechargement de la base de données", "Mise à jour de l'APK"],
+    "answer": "Injection du code modifié dans la VM Dart en cours d'exécution sans redémarrer",
+    "explanation": "Le Hot Reload injecte les modifications de code dans la machine virtuelle Dart en cours d'exécution, préservant l'état de l'application et permettant un développement ultra-rapide."
+  },
+  {
+    "question": "Quel widget Flutter est utilisé pour créer une mise en page avec des colonnes ?",
+    "options": ["Column", "Row", "Stack", "Flex"],
+    "answer": "Column",
+    "explanation": "Le widget Column organise ses enfants verticalement (en colonne). Pour une disposition horizontale, on utilise Row. Stack permet de superposer des widgets."
+  },
+  {
+    "question": "Qu'est-ce que BuildContext dans Flutter ?",
+    "options": ["Handle qui identifie la position d'un widget dans l'arbre de widgets", "Un constructeur de base de données", "La configuration de build du projet", "Un contexte de débogage"],
+    "answer": "Handle qui identifie la position d'un widget dans l'arbre de widgets",
+    "explanation": "BuildContext est un handle vers la position d'un widget dans l'arbre de widgets. Il est utilisé pour accéder aux informations de thème, de navigation et aux données des ancêtres."
+  },
+  {
+    "question": "Quel package Flutter est utilisé pour la navigation entre les écrans ?",
+    "options": ["Navigator (inclus dans Flutter)", "route_manager", "screen_navigator", "flutter_nav"],
+    "answer": "Navigator (inclus dans Flutter)",
+    "explanation": "Navigator est le widget de navigation intégré à Flutter. Navigator.push() ouvre un nouvel écran et Navigator.pop() revient en arrière."
+  },
+  {
+    "question": "Qu'est-ce qu'un Future en Dart ?",
+    "options": ["Représentation d'une valeur ou erreur disponible à un moment futur", "Une variable globale", "Un type de widget animé", "Un gestionnaire d'état"],
+    "answer": "Représentation d'une valeur ou erreur disponible à un moment futur",
+    "explanation": "Future représente une computation asynchrone en Dart. Il encapsule une valeur qui sera disponible dans le futur, similaire aux Promises en JavaScript."
+  },
+  {
+    "question": "Que fait le widget FutureBuilder dans Flutter ?",
+    "options": ["Construit l'UI selon l'état d'un Future (loading, data, error)", "Crée des animations", "Gère la navigation", "Configure les thèmes"],
+    "answer": "Construit l'UI selon l'état d'un Future (loading, data, error)",
+    "explanation": "FutureBuilder reconstruit automatiquement son sous-arbre de widgets selon l'état d'un Future : en attente (loading), réussi (data disponible) ou en erreur."
+  },
+  {
+    "question": "Quel est le rôle du fichier pubspec.yaml dans un projet Flutter ?",
+    "options": ["Définit les dépendances, assets et métadonnées du projet", "Contient le code principal de l'application", "Configure le backend de l'application", "Stocke les données utilisateur"],
+    "answer": "Définit les dépendances, assets et métadonnées du projet",
+    "explanation": "pubspec.yaml est le fichier de configuration principal d'un projet Flutter/Dart. Il liste les packages dépendants, les assets (images, polices), le nom et la version de l'application."
+  },
+  {
+    "question": "Qu'est-ce que Provider dans l'écosystème Flutter ?",
+    "options": ["Un package de gestion d'état basé sur InheritedWidget", "Un fournisseur d'hébergement cloud", "Un plugin de base de données", "Un outil de débogage"],
+    "answer": "Un package de gestion d'état basé sur InheritedWidget",
+    "explanation": "Provider est un wrapper simplifié autour d'InheritedWidget, recommandé par Google pour la gestion d'état dans Flutter. Il permet de partager des données dans l'arbre de widgets."
+  },
+  {
+    "question": "Quelle est la différence entre un Key dans Flutter ?",
+    "options": ["Permet à Flutter d'identifier et de préserver l'état des widgets", "Est la clé de chiffrement", "Est un identifiant de base de données", "Contrôle les animations"],
+    "answer": "Permet à Flutter d'identifier et de préserver l'état des widgets",
+    "explanation": "Les Keys permettent à Flutter de conserver l'état d'un widget lors d'une reconstruction de l'arbre. Essentielles pour les listes dynamiques (GlobalKey, ValueKey, UniqueKey)."
+  },
+  {
+    "question": "Qu'est-ce que Riverpod par rapport à Provider ?",
+    "options": ["Une version améliorée de Provider, compilée et plus sécurisée", "Un framework concurrent de Flutter", "Un outil de test unitaire", "Un service de base de données"],
+    "answer": "Une version améliorée de Provider, compilée et plus sécurisée",
+    "explanation": "Riverpod est une réécriture complète de Provider par le même auteur, offrant une meilleure sécurité à la compilation, pas de dépendance au contexte BuildContext et plus de flexibilité."
+  },
+  {
+    "question": "Quel widget Flutter permet de créer une liste défilable avec de nombreux éléments de manière efficace ?",
+    "options": ["ListView.builder", "Column", "SingleChildScrollView", "GridView"],
+    "answer": "ListView.builder",
+    "explanation": "ListView.builder crée les éléments à la demande (lazily), ne construisant que les widgets visibles à l'écran. Beaucoup plus performant que Column pour de longues listes."
+  },
+  {
+    "question": "Qu'est-ce qu'une Stream en Dart ?",
+    "options": ["Séquence asynchrone d'événements ou de données dans le temps", "Un fichier de données binaires", "Un canal réseau HTTP", "Un type d'animation Flutter"],
+    "answer": "Séquence asynchrone d'événements ou de données dans le temps",
+    "explanation": "Stream est une séquence asynchrone de données en Dart, similaire à un Observable en RxJS. Utilisé pour des données qui arrivent au fil du temps (WebSocket, capteurs, etc.)."
+  },
+  {
+    "question": "Quel est le rôle de Scaffold dans Flutter ?",
+    "options": ["Fournit la structure de base d'un écran Material Design", "Crée des animations d'entrée", "Gère la navigation", "Configure le thème"],
+    "answer": "Fournit la structure de base d'un écran Material Design",
+    "explanation": "Scaffold implémente la structure visuelle de base Material Design : AppBar, body, FloatingActionButton, Drawer, SnackBar, BottomNavigationBar, etc."
+  },
+  {
+    "question": "Comment partager des données entre deux widgets non liés dans l'arbre Flutter ?",
+    "options": ["Via un gestionnaire d'état (Provider, Riverpod, Bloc)", "En utilisant des variables globales", "Via le constructeur uniquement", "C'est impossible dans Flutter"],
+    "answer": "Via un gestionnaire d'état (Provider, Riverpod, Bloc)",
+    "explanation": "Pour partager des données entre widgets non liés, on utilise un gestionnaire d'état (Provider, Riverpod, Bloc/Cubit) qui place les données dans un niveau supérieur accessible à tous."
+  },
+  {
+    "question": "Qu'est-ce que l'arbre de widgets (Widget Tree) dans Flutter ?",
+    "options": ["Structure hiérarchique décrivant l'interface utilisateur de l'application", "Base de données locale", "Architecture réseau", "Système de fichiers du projet"],
+    "answer": "Structure hiérarchique décrivant l'interface utilisateur de l'application",
+    "explanation": "L'arbre de widgets est la représentation en mémoire de l'interface Flutter. Chaque widget peut contenir des widgets enfants, formant une structure arborescente de l'UI."
+  },
+  {
+    "question": "Quel mot-clé Dart est utilisé pour les fonctions asynchrones ?",
+    "options": ["async", "await", "future", "parallel"],
+    "answer": "async",
+    "explanation": "Le mot-clé async marque une fonction comme asynchrone. À l'intérieur, on peut utiliser await pour attendre la résolution d'un Future sans bloquer le thread principal."
+  },
+  {
+    "question": "Qu'est-ce que Flutter Animate ?",
+    "options": ["Un package simplifiant la création d'animations dans Flutter", "Le moteur de rendu de Flutter", "Un outil de débogage d'animations", "Un type de widget animé intégré"],
+    "answer": "Un package simplifiant la création d'animations dans Flutter",
+    "explanation": "flutter_animate est un package populaire qui permet d'ajouter facilement des animations à n'importe quel widget via des extensions fluides comme .fadeIn(), .slideY(), .scale()."
+  },
+  {
+    "question": "Qu'est-ce que le moteur de rendu Skia dans Flutter ?",
+    "options": ["Moteur graphique 2D qui dessine chaque pixel de l'UI Flutter", "Un moteur de base de données", "Un serveur d'application", "Un gestionnaire de packages"],
+    "answer": "Moteur graphique 2D qui dessine chaque pixel de l'UI Flutter",
+    "explanation": "Skia est le moteur graphique 2D haute performance utilisé par Flutter pour dessiner l'interface directement sur le canvas, indépendamment des composants natifs de la plateforme."
+  }
+]

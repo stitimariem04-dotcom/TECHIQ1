@@ -1,0 +1,48 @@
+name: techiq
+description: TechIQ - Plateforme Gamifiée de Quiz Informatique
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gestion d'état réactive
+  provider: ^6.1.1
+
+  # Stockage local persistant
+  shared_preferences: ^2.2.2
+
+  # Animations avancées
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+
+  # Lecture audio pour les effets sonores
+  audioplayers: ^5.2.1
+
+  # Polices Google modernes
+  google_fonts: ^6.2.1
+
+  # Icônes supplémentaires
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Fichiers JSON des questions par domaine
+    - assets/questions/iot.json
+    - assets/questions/flutter.json
+    - assets/questions/ai.json
+    - assets/questions/cybersecurity.json
+    - assets/questions/web.json
+    - assets/questions/python.json
+    - assets/questions/linux.json

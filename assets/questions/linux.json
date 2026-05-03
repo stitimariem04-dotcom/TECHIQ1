@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Quelle commande Linux affiche le répertoire de travail courant ?",
+    "options": ["pwd", "ls", "cd", "dir"],
+    "answer": "pwd",
+    "explanation": "pwd (Print Working Directory) affiche le chemin absolu du répertoire courant dans lequel vous vous trouvez. Essentiel pour s'orienter dans l'arborescence du système de fichiers."
+  },
+  {
+    "question": "Que fait la commande chmod en Linux ?",
+    "options": ["Modifie les permissions d'accès d'un fichier ou répertoire", "Change le propriétaire d'un fichier", "Déplace un fichier", "Affiche les informations d'un fichier"],
+    "answer": "Modifie les permissions d'accès d'un fichier ou répertoire",
+    "explanation": "chmod (Change Mode) modifie les permissions (lecture r, écriture w, exécution x) pour le propriétaire, le groupe et les autres. Exemple : chmod 755 script.sh donne rwxr-xr-x."
+  },
+  {
+    "question": "Que fait la commande grep ?",
+    "options": ["Recherche un motif de texte dans un fichier ou une sortie", "Télécharge des fichiers depuis Internet", "Gère les processus en cours", "Affiche les informations du système"],
+    "answer": "Recherche un motif de texte dans un fichier ou une sortie",
+    "explanation": "grep (Global Regular Expression Print) recherche des lignes correspondant à un motif (texte ou regex) dans un fichier ou une entrée standard. Exemple : grep 'erreur' /var/log/syslog."
+  },
+  {
+    "question": "Quelle commande affiche les processus en cours d'exécution en temps réel ?",
+    "options": ["top", "ps", "ls", "proc"],
+    "answer": "top",
+    "explanation": "top affiche dynamiquement et en temps réel la liste des processus actifs, la consommation CPU/mémoire et les informations système. htop est une version améliorée et plus interactive."
+  },
+  {
+    "question": "Que signifie la commande 'sudo' ?",
+    "options": ["Execute une commande avec les privilèges du superutilisateur (root)", "Arrête un processus", "Affiche la liste des utilisateurs", "Sauvegarde les fichiers système"],
+    "answer": "Execute une commande avec les privilèges du superutilisateur (root)",
+    "explanation": "sudo (SuperUser Do) permet à un utilisateur autorisé d'exécuter une commande en tant que root (ou un autre utilisateur), sans se connecter directement comme root. Plus sécurisé que 'su'."
+  },
+  {
+    "question": "Que fait la commande 'ls -la' ?",
+    "options": ["Affiche tous les fichiers (incluant cachés) avec les détails et permissions", "Supprime tous les fichiers", "Liste les fichiers triés par taille", "Affiche uniquement les répertoires"],
+    "answer": "Affiche tous les fichiers (incluant cachés) avec les détails et permissions",
+    "explanation": "ls -la combine -l (format long avec permissions, taille, date) et -a (all : inclut les fichiers cachés commençant par .). Très utile pour voir toutes les informations d'un répertoire."
+  },
+  {
+    "question": "Quelle commande Linux permet de compresser des fichiers en format .tar.gz ?",
+    "options": ["tar -czvf archive.tar.gz fichier", "zip archive.gz fichier", "compress fichier.tar.gz", "gzip -r archive fichier"],
+    "answer": "tar -czvf archive.tar.gz fichier",
+    "explanation": "tar -czvf : c=créer, z=compression gzip, v=verbose (afficher), f=spécifier le fichier. Pour décompresser : tar -xzvf archive.tar.gz (x=extraire)."
+  },
+  {
+    "question": "Que fait la commande 'kill -9 PID' ?",
+    "options": ["Force l'arrêt immédiat d'un processus par son identifiant", "Redémarre un processus", "Change la priorité d'un processus", "Liste les processus d'un utilisateur"],
+    "answer": "Force l'arrêt immédiat d'un processus par son identifiant",
+    "explanation": "kill envoie un signal à un processus. -9 (SIGKILL) force la terminaison immédiate sans permettre au processus de se nettoyer. kill -15 (SIGTERM) est plus gracieux et préférable quand possible."
+  },
+  {
+    "question": "Qu'est-ce que le fichier /etc/passwd dans Linux ?",
+    "options": ["Fichier contenant les informations des comptes utilisateurs du système", "Fichier des mots de passe chiffrés", "Configuration de l'authentification SSH", "Liste des services système actifs"],
+    "answer": "Fichier contenant les informations des comptes utilisateurs du système",
+    "explanation": "/etc/passwd contient les informations de chaque compte utilisateur (nom, UID, GID, répertoire home, shell). Les mots de passe sont stockés séparément dans /etc/shadow sous forme hashée."
+  },
+  {
+    "question": "Quelle commande affiche l'espace disque disponible sur les systèmes de fichiers ?",
+    "options": ["df -h", "du -h", "ls -lh", "fdisk -l"],
+    "answer": "df -h",
+    "explanation": "df (Disk Free) affiche l'espace disponible sur les systèmes de fichiers montés. -h (human-readable) affiche les tailles en Ko, Mo, Go. du -h affiche l'espace utilisé par les fichiers et répertoires."
+  },
+  {
+    "question": "Qu'est-ce que SSH ?",
+    "options": ["Protocole de connexion sécurisée à distance à un serveur Linux/Unix", "Un protocole de transfert de fichiers", "Un service de messagerie chiffrée", "Un protocole de surveillance réseau"],
+    "answer": "Protocole de connexion sécurisée à distance à un serveur Linux/Unix",
+    "explanation": "SSH (Secure Shell) est un protocole cryptographique permettant de se connecter et d'administrer à distance un serveur de manière sécurisée, remplaçant Telnet (non-chiffré). Port standard : 22."
+  },
+  {
+    "question": "Que fait la commande 'find' sous Linux ?",
+    "options": ["Recherche des fichiers et répertoires selon des critères (nom, taille, date, permissions)", "Trouve et remplace du texte", "Cherche un processus par son nom", "Localise les packages installés"],
+    "answer": "Recherche des fichiers et répertoires selon des critères (nom, taille, date, permissions)",
+    "explanation": "find est un outil de recherche puissant. Exemple : find /home -name '*.txt' -mtime -7 trouve tous les fichiers .txt modifiés dans les 7 derniers jours dans /home."
+  },
+  {
+    "question": "Qu'est-ce qu'un cron job sous Linux ?",
+    "options": ["Tâche planifiée qui s'exécute automatiquement selon un horaire défini", "Un processus qui tourne en continu en arrière-plan", "Un script d'initialisation du système", "Un daemon de surveillance des logs"],
+    "answer": "Tâche planifiée qui s'exécute automatiquement selon un horaire défini",
+    "explanation": "Cron est le planificateur de tâches Unix/Linux. La crontab définit les tâches avec la syntaxe minute heure jour mois jour_semaine commande. Exemple : 0 2 * * * /script.sh s'exécute à 2h chaque nuit."
+  },
+  {
+    "question": "Que fait la commande 'pipe' ( | ) dans Linux ?",
+    "options": ["Redirige la sortie d'une commande vers l'entrée d'une autre commande", "Démarre un processus en arrière-plan", "Crée un lien symbolique", "Redirige la sortie vers un fichier"],
+    "answer": "Redirige la sortie d'une commande vers l'entrée d'une autre commande",
+    "explanation": "Le pipe | chaîne des commandes : la sortie standard de la commande gauche devient l'entrée de la commande droite. Exemple : ls -la | grep '.txt' | wc -l compte les fichiers .txt d'un répertoire."
+  },
+  {
+    "question": "Que signifie systemctl dans les distributions Linux modernes ?",
+    "options": ["Outil de contrôle du gestionnaire de système systemd (démarrage, arrêt, statut des services)", "Commande de contrôle du système de fichiers", "Outil de configuration réseau", "Gestionnaire de packages système"],
+    "answer": "Outil de contrôle du gestionnaire de système systemd (démarrage, arrêt, statut des services)",
+    "explanation": "systemctl (system control) interagit avec systemd, le gestionnaire de services moderne. Exemples : systemctl start nginx, systemctl enable ssh (démarrer au boot), systemctl status mysql."
+  },
+  {
+    "question": "Quelle commande affiche les interfaces réseau et leurs configurations IP sous Linux ?",
+    "options": ["ip addr show", "ifconfig", "netstat -i", "ipconfig"],
+    "answer": "ip addr show",
+    "explanation": "ip addr show (ou ip a) est la commande moderne pour afficher les interfaces réseau et leurs adresses IP. ifconfig est l'ancienne commande, dépréciée dans les systèmes récents."
+  },
+  {
+    "question": "Qu'est-ce que le répertoire /var/log dans Linux ?",
+    "options": ["Répertoire contenant les fichiers journaux (logs) du système et des applications", "Répertoire des variables d'environnement", "Emplacement des bibliothèques partagées variables", "Répertoire de configuration des services"],
+    "answer": "Répertoire contenant les fichiers journaux (logs) du système et des applications",
+    "explanation": "/var/log contient les logs du système (syslog, auth.log, dmesg) et des applications (nginx/access.log, mysql/error.log). Indispensable pour le diagnostic des problèmes système."
+  },
+  {
+    "question": "Que fait la commande 'sed' sous Linux ?",
+    "options": ["Éditeur de flux pour transformer du texte en ligne de commande", "Affiche les informations du système", "Gère les processus en cours", "Configure les paramètres réseau"],
+    "answer": "Éditeur de flux pour transformer du texte en ligne de commande",
+    "explanation": "sed (Stream Editor) transforme le texte en lisant ligne par ligne. Utilisation classique : sed 's/ancien/nouveau/g' fichier remplace toutes les occurrences de 'ancien' par 'nouveau'."
+  },
+  {
+    "question": "Qu'est-ce qu'un lien symbolique (symlink) sous Linux ?",
+    "options": ["Un pointeur (raccourci) vers un autre fichier ou répertoire", "Une copie complète d'un fichier", "Un fichier compressé", "Un lien réseau vers un partage distant"],
+    "answer": "Un pointeur (raccourci) vers un autre fichier ou répertoire",
+    "explanation": "Un lien symbolique est créé avec ln -s cible lien. Il pointe vers un autre fichier ou répertoire (comme un raccourci Windows). Si le fichier cible est supprimé, le symlink devient 'cassé'."
+  },
+  {
+    "question": "Quel est le rôle du fichier /etc/hosts ?",
+    "options": ["Associer des noms de domaine à des adresses IP localement sans DNS", "Lister les hôtes connectés au réseau", "Configurer le serveur SSH", "Définir les règles du pare-feu"],
+    "answer": "Associer des noms de domaine à des adresses IP localement sans DNS",
+    "explanation": "/etc/hosts permet de résoudre des noms de domaine en adresses IP localement, avant d'interroger les serveurs DNS. Utilisé pour tester des sites locaux ou bloquer des domaines (127.0.0.1 publicité.com)."
+  },
+  {
+    "question": "Que signifie le bit d'exécution dans les permissions Linux ?",
+    "options": ["Permet l'exécution du fichier comme programme ou script", "Indique que le fichier est un binaire compilé", "Rend le fichier accessible à tous les utilisateurs", "Protège le fichier contre la suppression"],
+    "answer": "Permet l'exécution du fichier comme programme ou script",
+    "explanation": "Le bit x (execute) dans rwx permet d'exécuter le fichier comme programme. Pour les répertoires, il signifie la permission d'entrer dans le répertoire (cd). chmod +x script.sh rend un script exécutable."
+  },
+  {
+    "question": "Quelle commande Linux affiche le contenu d'un fichier texte page par page ?",
+    "options": ["less", "cat", "head", "tail"],
+    "answer": "less",
+    "explanation": "less affiche le contenu d'un fichier de manière paginée, permettant le défilement (flèches, Page Up/Down) et la recherche (/terme). plus puissant que more. cat affiche tout le fichier d'un coup."
+  }
+]
